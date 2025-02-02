@@ -1,129 +1,75 @@
-<!--
-theme: gaia
-class:
- - invert
-headingDivider: 2 
+---
+marp: true
+theme: uncover
+class: invert
 paginate: true
--->
+_paginate: skip
+author: Szymon Górka
+auto-scaling: true
+---
 
-<!--
-_class:
- - lead
- - invert
--->
+# ergonomic keyboard iceberg explained
 
-# Deploy Marp to GitHub Pages
+![bg left](./img/ergo-iceberg.jpg)
 
-Presentations to Webpages: Instantly!
+---
 
-## What?
+# Level 1
 
-[Marp](https://marp.app/) lets you create HTML slides from markdown (like this!).
+![](./img/tier1.png)
 
-This presentation is both a [website](https://alexsci.com/marp-to-pages) and a [README.md](https://github.com/ralexander-phi/marp-to-pages/blob/main/README.md).
+---
 
-## Why?
+# Level 2
 
-Treat your presentation the same way you treat code.
+![](./img/tier2.png)
 
-- Use git to track changes
-- Pull requests to collaborate
-- Deploy automatically
-- See a problem? Open an issue!
+---
 
-## Setup
+# Level 3
 
-Want to create your own?
+![](./img/tier3.png)
 
-First, create a new repo [from the template repo](https://github.com/ralexander-phi/marp-to-pages).
+---
 
-![](img/use-template.png)
+# split keyboard
 
-## Configure GitHub Pages
+![bg left](https://www.designboom.com/twitterimages/uploads/2022/02/glove80-incredibly-comfortable-ergonomic-keyboard-3-61fa7c5e7ea18.jpg)
 
-Open your new repo and [setup publishing](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
+---
 
-You'll typically use `gh-pages` as the deploy branch.
+# VS
 
-## Review Build
-
-Click on Actions tab and see if the build succeeded (it may take some time).
-
-![](img/click-actions.png)
-
-You should now see the generated files in the `gh-pages` branch.
-
-## View webpage
-
-Open your deployed webpage to see the content.
-
-Out of the box you should see `README.md` as `/index.html` and `/README.pdf`. Slides under `docs/` are also converted.
-
-## Running locally
-
-Locally you'll run commands like:
-
-```
-$ marp README.md -o build/README.pdf
-```
-
-or
-
-```
-$ npx @marp-team/marp-cli@latest README.md -o build/README.pdf
-```
-
-## As a workflow step
-
-The workflow runs an equivalent step:
-
-```
-- name: Marp Build (README.pdf)
-  uses: docker://marpteam/marp-cli:v1.7.0
-  with:
-    args: README.md -o build/README.pdf
-  env:
-    MARP_USER: root:root
-```
-
-Note the `args` match the previous slide.
-
-## Customizing the build
-
-Anything in the `build/` folder will be deployed to GitHub Pages.
-
-You can copy extra files or run further processing steps using other tools.
-
-## Learn more about Marp
-
-This is a good time to learn more about Marp. Here's some resources:
-
-- [CommonMark](https://commonmark.org/)
-- [Cheat Sheet](https://commonmark.org/help/)
-- [Themes](https://github.com/marp-team/marp-core/tree/master/themes)
-- [CSS Themes](https://marpit.marp.app/theme-css)
-- [Directives](https://marpit.marp.app/directives)
-- [VS Code plugin](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
-
-## Example Sites
-
-Known sites using this action are:
-
-- [University of Illinois at Urbana-Champaign's CS 199 Even More Practice](https://cs199emp.netlify.app/) [(code)](https://github.com/harsh183/emp-125)
-- [Exploring agent based models](https://roiarthurb.github.io/Talk-UMMISCO_06-07-2020/) [(code)](https://github.com/RoiArthurB/Talk-UMMISCO_06-07-2020)
-
-Send a [pull request](https://github.com/ralexander-phi/marp-to-pages) to get your site added.
-
-## Publish your slides
-
-When you are ready to share your presentation, commit or merge to `main` and your content on GitHub Pages will automatically update.
-
-# 🎉
-<!--
-_class:
- - lead
- - invert
--->
-### Hooray!
+![bg fit](https://theawesomer.com/photos/2021/03/aluminum_space_bar_keycap_1.jpg)
+![bg fit](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2F3vj76judqa151.jpg&f=1&nofb=1&ipt=5cd37bb9aa9c6e36c4be351459b8cfdb0ea03607198475bf3ad45000b2344713&ipo=images)
 
 
+---
+
+# Size matters
+
+![w:800](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cgdirector.com%2Fwp-content%2Fuploads%2Fmedia%2F2022%2F11%2FKeyboard-Size-and-Layout-Guide.jpg&f=1&nofb=1&ipt=da2df2b5c4a27e38ef3c763709b4a9735cb2c13fe0a760cab8e859664bcaa45d&ipo=images)
+
+---
+
+# Tenting
+
+![bg left](https://preview.redd.it/my-custom-split-keeb-work-setup-v0-6k73ysafhzfe1.jpg?width=1080&crop=smart&auto=webp&s=0e5b04c367b355fb2879a86a143d402b17fa091b)
+
+---
+
+# Level 4
+
+![](./img/tier4.png)
+
+---
+
+# Why not QWERTY?
+
+ ![w:800](https://typingdonewell.com/wp-content/uploads/2022/05/Colemak-vs-QWERTY-top-100-words-English-1536x871.png.webp)
+
+---
+
+# Thank you!
+
+It's time for questions!
