@@ -10,7 +10,7 @@ auto-scaling: true
 
 # ergonomic keyboard iceberg explained
 
-![bg left fit](./img/ergo-iceberg.jpg)
+![bg left h:600](./img/ergo-iceberg.jpg)
 
 ---
 
@@ -40,8 +40,8 @@ auto-scaling: true
 
 # VS
 
-![bg fit](https://theawesomer.com/photos/2021/03/aluminum_space_bar_keycap_1.jpg)
-![bg fit](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2F3vj76judqa151.jpg&f=1&nofb=1&ipt=5cd37bb9aa9c6e36c4be351459b8cfdb0ea03607198475bf3ad45000b2344713&ipo=images)
+![bg h:400](https://theawesomer.com/photos/2021/03/aluminum_space_bar_keycap_1.jpg)
+![bg h:400](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2F3vj76judqa151.jpg&f=1&nofb=1&ipt=5cd37bb9aa9c6e36c4be351459b8cfdb0ea03607198475bf3ad45000b2344713&ipo=images)
 
 
 ---
