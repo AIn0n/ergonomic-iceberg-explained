@@ -10,25 +10,25 @@ auto-scaling: true
 
 # ergonomic keyboard iceberg explained
 
-![bg left](./img/ergo-iceberg.jpg)
+![bg left fit](./img/ergo-iceberg.jpg)
 
 ---
 
 # Level 1
 
-![](./img/tier1.png)
+![h:120](./img/tier1.png)
 
 ---
 
 # Level 2
 
-![](./img/tier2.png)
+![h:120](./img/tier2.png)
 
 ---
 
 # Level 3
 
-![](./img/tier3.png)
+![h:120](./img/tier3.png)
 
 ---
 
@@ -60,7 +60,7 @@ auto-scaling: true
 
 # Level 4
 
-![](./img/tier4.png)
+![h:120](./img/tier4.png)
 
 ---
 
